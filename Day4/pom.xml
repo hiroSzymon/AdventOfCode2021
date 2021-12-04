@@ -2,26 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>AoC2021</artifactId>
+        <groupId>com.hiroszymon</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.hiroszymon</groupId>
-    <artifactId>AoC2021</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>Day1</module>
-        <module>Common</module>
-        <module>Day2</module>
-        <module>Day3</module>
-        <module>Day4</module>
-    </modules>
+    <artifactId>Day4</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.hiroszymon</groupId>
-            <artifactId>Common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
         </dependency>
     </dependencies>
 
