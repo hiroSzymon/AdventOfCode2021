@@ -30,6 +30,10 @@
         <module>Day18</module>
         <module>Day19</module>
         <module>Day20</module>
+        <module>Day21</module>
+        <module>Day22</module>
+        <module>Day23</module>
+        <module>Day24</module>
     </modules>
 
     <dependencies>
